@@ -1,0 +1,23 @@
+:root {
+  --main-color: #13172a;
+  --primary-color: #f14666;
+  --secondary-color: #ee8980;
+  --light-color: #ffcdaa;
+}
+
+body {
+  background: var(--main-color);
+}
+h1 {
+  font-family: Roboto Mono;
+}
+.navbar-custom {
+  color: var(--light-color);
+}
+
+.first-color-title {
+  color: var(--secondary-color);
+}
+.second-color-title {
+  color: var(--light-color);
+}
