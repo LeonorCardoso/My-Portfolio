@@ -14,23 +14,28 @@ body {
 }
 h1 {
   font-family: var(--heading-font-family);
+  font-size: 50px;
+}
+
+img {
+  border-radius: 6px;
 }
 .color-block-left {
   background: var(--color-block);
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
-  padding: 70px 20px 70px 60px;
+  padding: 70px 60px 70px 20px;
   margin-top: 50px;
-  text-align: left;
+  text-align: right;
 }
 
 .color-block-right {
   background: var(--color-block);
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
-  padding: 70px 60px 70px 20px;
+  padding: 70px 20px 70px 60px;
   margin-top: 50px;
-  text-align: right;
+  text-align: left;
 }
 .heading h1 {
   font-size: 96px;
@@ -48,7 +53,7 @@ h1 {
   border: 3px solid var(--secondary-color);
   border-radius: 6px;
   background: var(--primary-color);
-  padding: 15px 40px;
+  padding: 15px 80px;
   text-align: center;
 }
 :hover.primary-btn {
