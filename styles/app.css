@@ -15,7 +15,7 @@ body {
 }
 h1 {
   font-family: var(--heading-font-family);
-  font-size: 50px;
+  font-size: 40px;
 }
 
 a {
@@ -41,7 +41,7 @@ a {
   box-shadow: var(--box-shadow);
 }
 .heading h1 {
-  font-size: 96px;
+  font-size: 80px;
 }
 .first-color-title {
   color: var(--primary-color);
@@ -57,7 +57,6 @@ a {
   border-radius: 6px;
   background: var(--primary-color);
   padding: 15px 80px;
-  text-align: center;
   box-shadow: var(--box-shadow);
 }
 .primary-btn:hover {
@@ -86,4 +85,32 @@ a {
   top: 50%;
   left: 50%;
   transform: translate(-50%, -50%);
+}
+
+@media (max-width: 768px) {
+  h1 {
+    font-size: 40px;
+  }
+  .color-block-left,
+  .color-block-right,
+  .work-heading {
+    text-align: center;
+  }
+  .heading h1 {
+    font-size: 65px;
+  }
+  .rectangle,
+  img {
+    display: none;
+  }
+}
+
+@media (max-width: 576px) {
+  h1 {
+    font-size: 25px;
+  }
+
+  .heading h1 {
+    font-size: 50px;
+  }
 }
