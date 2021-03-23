@@ -141,8 +141,7 @@ a:hover {
   text-align: center;
 }
 .project-img {
-  width: 400px;
-  height: 400px;
+  width: 75%;
 }
 
 @media (max-width: 900px) {
