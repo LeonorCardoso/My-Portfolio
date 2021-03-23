@@ -45,19 +45,18 @@ img {
   box-shadow: var(--box-shadow);
   border: 6px solid var(--primary-color);
 }
-work-section img {
+.swork-section img {
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
 }
-div img {
-  height: 100px;
+.work-section img {
   float: left;
   filter: grayscale(50%);
   -webkit-filter: grayscale(50%);
   -moz-filter: grayscale(50%);
 }
-div img:hover {
+.work-section img:hover {
   filter: grayscale(0%);
   -webkit-filter: grayscale(0%);
   -moz-filter: grayscale(0%);
@@ -65,6 +64,15 @@ div img:hover {
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
   transition: all 0.3s ease-in-out;
+}
+
+a {
+  text-decoration: none;
+  color: var(--primary-color);
+}
+
+a:hover {
+  color: var(--secondary-color);
 }
 
 .color-block-left {
@@ -115,6 +123,26 @@ div img:hover {
 }
 .contact-heading {
   text-align: center;
+}
+.box {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-evenly;
+}
+.logo {
+  width: 70px;
+  height: 70px;
+  border: none;
+  box-shadow: none;
+}
+.img-block {
+  margin-top: 25px;
+  margin-bottom: 25px;
+  text-align: center;
+}
+.project-img {
+  width: 400px;
+  height: 400px;
 }
 
 @media (max-width: 900px) {
