@@ -21,12 +21,17 @@ h1 {
 a {
   text-decoration: none;
 }
+
+p {
+  font-size: 20px;
+}
 .color-block-left {
   background: var(--color-block);
   border-top-right-radius: 6px;
   border-bottom-right-radius: 6px;
   padding: 70px 60px 70px 50px;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-align: right;
   box-shadow: var(--box-shadow);
 }
@@ -36,7 +41,8 @@ a {
   border-top-left-radius: 6px;
   border-bottom-left-radius: 6px;
   padding: 70px 50px 70px 60px;
-  margin-top: 50px;
+  margin-top: 25px;
+  margin-bottom: 25px;
   text-align: left;
   box-shadow: var(--box-shadow);
 }
