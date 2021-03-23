@@ -75,6 +75,15 @@ a:hover {
   color: var(--secondary-color);
 }
 
+a h3 {
+  color: var(--main-color);
+}
+
+a h3:hover {
+  color: var(--secondary-color);
+  transition: all 0.3s ease-in-out;
+}
+
 .color-block-left {
   background: var(--color-block);
   border-top-right-radius: 6px;
