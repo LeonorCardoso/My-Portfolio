@@ -74,7 +74,7 @@ img {
   box-shadow: var(--box-shadow);
   border: 6px solid var(--primary-color);
 }
-.swork-section img {
+.work-section img {
   transition: all 0.4s;
   -webkit-transition: all 0.4s;
   -moz-transition: all 0.4s;
@@ -84,6 +84,7 @@ img {
   filter: grayscale(50%);
   -webkit-filter: grayscale(50%);
   -moz-filter: grayscale(50%);
+  transition: all 0.1s ease-in-out;
 }
 .work-section img:hover {
   filter: grayscale(0%);
@@ -92,7 +93,7 @@ img {
   transform: scale(1.1);
   -webkit-transform: scale(1.1);
   -moz-transform: scale(1.1);
-  transition: all 0.3s ease-in-out;
+  transition: all 0.1s ease-in-out;
 }
 
 .go-to-url {
@@ -183,8 +184,11 @@ a h3:hover {
 }
 
 @media (max-width: 900px) {
-  h1 {
-    font-size: 40px;
+  h2 {
+    font-size: 25px;
+  }
+  h3 {
+    font-size: 20px;
   }
   .color-block-left,
   .color-block-right,
@@ -192,20 +196,11 @@ a h3:hover {
     text-align: center;
   }
   .heading h1 {
-    font-size: 65px;
+    font-size: 40px;
   }
+
   .rectangle,
-  img {
+  .work-section img {
     display: none;
-  }
-}
-
-@media (max-width: 576px) {
-  h1 {
-    font-size: 25px;
-  }
-
-  .heading h1 {
-    font-size: 50px;
   }
 }
