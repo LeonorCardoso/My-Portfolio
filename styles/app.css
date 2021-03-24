@@ -194,7 +194,7 @@ footer a {
 
 @media (max-width: 900px) {
   h2 {
-    font-size: 30px;
+    font-size: 27px;
     text-align: center;
   }
   h3 {
@@ -206,7 +206,7 @@ footer a {
   }
 
   .heading h1 {
-    font-size: 40px;
+    font-size: 35px;
     text-align: center;
   }
   .hero,
@@ -219,5 +219,19 @@ footer a {
   .rectangle,
   .work-section img {
     display: none;
+  }
+
+  .logo {
+    width: 40px;
+    height: 40px;
+  }
+
+  .contact-heading {
+    font-size: 28px;
+    text-align: center;
+  }
+
+  .email-link {
+    text-align: center;
   }
 }
